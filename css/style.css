@@ -225,6 +225,7 @@ h5 {
     background-color: rgba(255, 255, 255, 0.96);
 }
 
+
 .headername{
   position: absolute;
   left: 25px;
@@ -431,6 +432,8 @@ h5 {
     display: table;
     height: 100vh;
     width: 100%;
+
+    
 }
 
 .box-intro .table-cell {
@@ -809,8 +812,13 @@ b i:last-child {
 
 
 
-
-
+.card{
+text-decoration: none;
+border-radius: 6px;
+cursor: pointer;
+box-shadow: 0 1px 1px 1px rgba(10,16,34,.08);
+transition: transform .3s ease-out,box-shadow .3s ease-out,-webkit-transform .3s ease-out,-webkit-box-shadow .3s ease-out;
+}
 
 
 
