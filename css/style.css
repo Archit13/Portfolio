@@ -226,7 +226,7 @@ h5 {
 }
 
 .headername{
-  position: relative;
+  position: fixed;
   left: 90px;
   top: 19px;
   font-family:'Work Sans';
