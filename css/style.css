@@ -55,6 +55,32 @@ body {
     height: 95px;
 }
 
+.Index-categoriesList li {
+    position: relative;
+    display: inline-block;
+    margin-right: 62px;
+    font-size: 12px;
+    letter-spacing: 0.125em;
+    line-height: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.isDesktop .Index-categoriesList li a {
+    transition: color 0.15s ease;
+}
+
+.Index-categoriesList li a {
+    text-decoration: none;
+    color: #909496;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+}
+
 .no-padding [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
