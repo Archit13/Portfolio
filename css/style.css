@@ -46,6 +46,15 @@ body {
     padding-right: 0;
 }
 
+.Index-categoriesList {
+    text-align: left;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    padding-top: 20px;
+    height: 95px;
+}
+
 .no-padding [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
